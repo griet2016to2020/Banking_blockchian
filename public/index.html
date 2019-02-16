@@ -1,0 +1,188 @@
+<!--<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+</style>
+</head>
+<body>
+    <div>
+<img src="76f23ef08dc1ebabf4589ca0daa1fc14.jpg" height="690" width="1530">
+<div class="topnav">
+  <a class="active" href="#home">Home</a>
+  <a href="#news">News</a>
+  <a href="#contact">Contact</a>
+  <a href="#about">About</a>
+</div>
+
+<div style="padding-left:16px">
+  <h2>Top Navigation Example</h2>
+  <p>Some content..</p>
+</div>
+    </div>
+</body>
+</html>-->
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.topleft {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    font-size: 30px;
+    color: white;
+    padding-top: 15px;
+    padding-left: 20px;
+}
+    .centered {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:white;
+        font-size: 50px;
+}
+    .centered1 {
+    position: absolute;
+    top: 33%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:#E8E6E6;
+        font-size: 30px;
+        
+}
+     .centered2 {
+       padding: 5px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:#E8E6E6;
+        font-size: 25px;
+       /* background-color:rgb(38,38,38);opacity:0.8;*/
+    }
+.top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    color: white;
+    font-size:15px;
+    background-color: Transparent;
+    background-image: none;
+     border-radius: 10px 10px 10px 10px;
+    border: 2px solid white;
+    padding: 14px 40px;
+    hover {background-color: #e7e7e7;}
+}
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+.bg-img {
+  /* The image used */
+  background-image: url("bg.jpg");
+
+ min-height: 700px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  /* Needed to position the navbar */
+  position: relative;
+}
+
+/* Position the navbar container inside the image */
+.container {
+  position: absolute;
+  margin: 15px;
+  width: auto;
+
+    padding-left: 520px;
+    padding-right:0;
+    
+     
+}
+
+/* The navbar */
+.topnav {
+  overflow: hidden;
+    margin-top: 20px;
+    
+    
+  /*background-color: #333;*/
+}
+
+/* Navbar links */
+.topnav a {
+   
+  float: center;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+    
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+</style>
+</head>
+<body>
+
+<div class="bg-img">
+    
+ <div class="topleft">DIGICOIN</div>
+    <a href="loginpage.html" class="top-right">Login/Sign up</a>
+
+       <div class="centered">Welcome to Digicoin</div>
+     <div class="centered1">A blockchain powered safe banking</div>
+      <!-- <div class="centered2">An electronic cash transaction system built upon blockchain technology would allow secure transactions. The primary motive for the creation of cryptocurrency is to facilitate secure transactions without the aid of financial institutions such as banks. Generally cryptocurrency will provide anonymity of the user’s transactions but this will disrupt the transparency in government financial institutions. A better solution is to group a number of users into structures called “banks”, each bank will record the transactions of its members. </div>-->
+  <div class="container">
+    <div class="topnav">
+      <a href="#home">Home</a>
+      <a href="#news">News</a>
+      <a href="#contact">Contact</a>
+      <a href="#about">About</a>
+        <a href="#exchange">Exchange</a>
+    </div>
+     
+  </div>
+    
+</div>
+   
+
+</body>
+</html>
